@@ -1,0 +1,50 @@
+.footer-top {
+  padding: 35px 55px 29px 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__subtitle {
+    font-family: "objective";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    margin: 57px 0 40px 0;
+    position: relative;
+    &::after {
+      content: "";
+      width: 100px;
+      height: 2px;
+      background-color: #fff;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+    }
+  }
+  &__second-subtitle {
+    margin-top: 0;
+    &::after {
+      width: 61px;
+    }
+  }
+  &__link {
+    font-family: "objective";
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    display: block;
+    margin: 0 0 18px 0;
+  }
+  &__txt-box {
+    margin: 0 0 33px 0;
+    width: 285px;
+    display: flex;
+    align-items: center;
+  }
+  &__txt {
+    margin: 0 0 0 15px;
+  }
+  &__social-link {
+    margin: 0 25px 0 0;
+  }
+}

@@ -1,0 +1,39 @@
+.drop {
+    padding-top: 31px;
+    padding-bottom: 23px;
+  &__subtitle {
+    text-align: center;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0f001a;
+  }
+  &__area {
+    margin: 51px auto 0;
+    padding: 0 0 20px 0;
+    width: 260px;
+    background: #f9f9fb;
+    border: 1px dashed #d2d7e5;
+    box-sizing: border-box;
+    border-radius: 16px;
+    &:hover {
+        background: #f4f4f7;
+    }
+  }
+  &__input {
+      visibility: hidden;
+  }
+  &__img {
+    display: block;
+    margin: 0 auto 19px;
+  }
+  &__area-txt {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #878787;
+    margin: 0 0 9px 0;
+  }
+}
